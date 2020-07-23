@@ -1,0 +1,159 @@
+html{
+    font-family: Hind, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/*Header*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#logo{
+    height: 64px;
+    width: auto;
+    margin-left: 24px;
+}
+
+
+span{
+    font-size: 32px;
+    color: #9F9F9F;
+    text-transform: uppercase;
+}
+
+#colmar{
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+nav{
+    margin-left: auto;
+}
+
+nav a{
+    color: #4a4a4a;
+    font-size: 24px;
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+nav a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#sign{
+    padding-right: 24px;
+}
+
+/*Learn Something New Every Day*/
+
+.learn{
+    background-color: #D8D8D8;
+    display: flex;
+    align-items: center;
+}
+
+.learn img{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.new{
+    flex-direction: column;
+    width: 25%;
+}
+
+.new h1,
+p{
+    color: #4a4a4a;
+}
+
+.new h1{
+    font-weight: bolder;
+    font-size: 56px;
+}
+
+.new p{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.button{
+    background-color: #4a4a4a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+/*Keep Practicing*/
+
+.details{
+    display: flex;
+    background-color: #f3f5f5;
+}
+
+.information{
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 60%;
+}
+
+.information img{
+    margin-top: 32px;
+}
+
+.information h2{
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+#quote{
+    font-size: 24px;
+    text-transform: none;
+    margin-bottom: 32px;
+    color: #9F9F9F;
+}
+
+#emanuel{
+    font-size: 20px;
+    text-transform: none;
+    margin-bottom: 32px;
+    color: #4a4a4a;
+}
+
+.classes{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.classes img{
+    height: auto;
+    width: 35%;
+    margin: 0px 16px 16px 16px;
+}
+
+.classes h2{
+    font-size: 32px;
+}
+
+.orientation, .campus, .guest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
