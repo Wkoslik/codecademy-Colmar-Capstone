@@ -56,14 +56,21 @@ nav a:hover{
     align-items: center;
 }
 
-.learn img{
+.learn-image{
     width: 60%;
-    margin: 32px 24px;
+}
+
+.learn-image img{
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: auto;
 }
 
 .new{
     flex-direction: column;
     width: 25%;
+    margin: auto;
 }
 
 .new h1,
@@ -103,17 +110,18 @@ p{
 }
 
 .information{
-    margin-left: 24px;
-    margin-right: 24px;
     width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .information img{
-    margin-top: 32px;
+    padding-top: 32px;
+    height: auto;
 }
 
 .information h2{
-    color: #4a4a4a;
+    color: #4d4d4d;
     font-weight: bold;
     font-size: 56px;
     margin-bottom: 24px;
@@ -123,37 +131,53 @@ p{
     font-size: 24px;
     text-transform: none;
     margin-bottom: 32px;
-    color: #9F9F9F;
+    color: #4d4d4d;
 }
 
 #emanuel{
     font-size: 20px;
     text-transform: none;
+    font-weight: bold;
     margin-bottom: 32px;
-    color: #4a4a4a;
-}
-
-.classes{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 32px;
-}
-
-.classes img{
-    height: auto;
-    width: 35%;
-    margin: 0px 16px 16px 16px;
-}
-
-.classes h2{
-    font-size: 32px;
+    color: #4d4d4d;
 }
 
 .orientation, .campus, .guest{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
+
+.other img{
+  width: 35%;
+  height: auto;
+  padding: 16px;
+  align-items: flex-start;
+}
+
+.text{
+  flex-direction: column;
+}
+
+.text h2{
+    font-size: 32px;
+    color: #4d4d4d;
+}
+
+.text p{
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.text a{
+    color: #4a90e2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.orientation img{
+    padding-top: 32px;
+}
+
 
