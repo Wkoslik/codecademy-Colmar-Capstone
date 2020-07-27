@@ -65,6 +65,7 @@ nav a:hover{
     padding-top: 32px;
     padding-bottom: 32px;
     margin: auto;
+    width: 100%;
 }
 
 .new{
@@ -113,11 +114,13 @@ p{
     width: 60%;
     padding-left: 24px;
     padding-right: 24px;
+    border-right: 1px solid #D8D8D8;
 }
 
 .information img{
     padding-top: 32px;
     height: auto;
+    width: 100%;
 }
 
 .information h2{
@@ -180,4 +183,198 @@ p{
     padding-top: 32px;
 }
 
+.break{
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
 
+/* Start Learning */
+
+#learning{
+    font-size: 32px;
+    font-weight: bold;
+    color: #4a4a4a;
+    text-align: center;
+    background-color: #eaebec;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.learning{
+    background-color: #eaebec;
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr 50px 1fr;
+    grid-template-rows: 1fr 50px 1fr 50px;
+    align-content: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.software{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+    background-color: #ffffff;
+}
+
+.computer{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: 4;
+    grid-row-end: 2;
+    background-color: #ffffff;
+}
+
+.design{
+    grid-column-start: 5;
+    grid-row-start: 1;
+    grid-column-end: 6;
+    grid-row-end: 2;
+    background-color: #ffffff;
+}
+
+.data{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: 2;
+    grid-row-end: 4;
+    background-color: #ffffff;
+}
+
+.business{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column-end: 4;
+    grid-row-end: 4;
+    background-color: #ffffff;
+}
+
+.marketing{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    grid-column-end: 6;
+    grid-row-end: 4;
+    background-color: #ffffff;
+}
+
+#title{
+    color: #4a4a4a;
+    font-size: 32px;
+    padding-left: 16px;
+}
+
+#courses{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.learning p{
+    color: #4d4d4d;
+    font-size: 20px;
+    padding-left: 16px;
+    font-weight: lighter;
+    width: fit-content;
+}
+
+.software img, .computer img, .design img,
+.data img, .business img, .marketing img{
+    height: auto;
+    width: 100%;
+    align-content: stretch;
+}
+
+/* Thesis */
+
+#thesis{
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #f3f5f5;
+    margin: auto;
+}
+.thesis{
+    display: flex;
+    background-color: #f3f5f5;
+}
+
+.urban{
+    width: 55%;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-right: 1px solid #D8D8D8;
+}
+
+.urban video{
+    padding-top: 32px;
+    height: auto;
+    width: 100%;
+}
+
+.thesis h3{
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.thesis p{
+    font-size: 18px;
+    text-transform: none;
+    margin-bottom: 32px;
+    color: #4d4d4d;
+}
+
+.fisma, .now{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.other2 img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+    align-items: flex-start;
+  }
+
+  .fisma img{
+      margin-top: 16px;
+  }
+
+  footer{
+    display: flex;
+      background-color: #f3f5f5;
+      border-top: 1px solid #D8D8D8;
+      padding-top: 16px;
+  }
+
+  .copyright{
+      font-size: 16px;
+      text-transform: none;
+      color: #4d4d4d;
+      padding-left: 24px;
+      justify-content: flex-start;
+      align-content: flex-start;
+  }
+
+  .privacy{
+    margin-left: auto;
+  }
+
+  footer a{
+    font-size: 16px;
+    color: #4d4d4d;
+    padding-right: 24px;
+    text-decoration: none;
+  }
+
+  footer a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
